@@ -1,0 +1,33 @@
+.custom-node {
+    background-color: #1a1a1a; /* Sfondo scuro */
+    border: 2px solid #e3c194; /* Bordo color oro */
+    border-radius: 10px; /* Angoli arrotondati */
+    padding: 15px; /* Spaziatura interna */
+    width: 150px; /* Larghezza del nodo */
+    text-align: center; /* Testo centrato */
+    color: #d4c9b8; /* Colore del testo chiaro */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Ombra per profondità */
+    font-family: 'Garamond', serif; /* Font ispirato a Elden Ring */
+  }
+  
+  /* Stile per l'etichetta */
+  .custom-node-label {
+    font-size: 16px; /* Dimensione del font per l'etichetta */
+    color: #e3c194; /* Colore dell'etichetta */
+  }
+  
+  /* Stile per l'immagine */
+  .custom-node-image {
+    width: 100%; /* Larghezza al 100% */
+    height: auto; /* Altezza automatica */
+    border-radius: 5px; /* Angoli arrotondati per l'immagine */
+    margin: 10px 0; /* Margine sopra e sotto l'immagine */
+  }
+  
+  /* Stile per la descrizione */
+  .custom-node-description, .custom-node-notes {
+    font-size: 12px; /* Dimensione del font per descrizione e note */
+    color: #b0a08a; /* Colore delle descrizioni e note */
+    margin: 5px 0; /* Margine sopra e sotto */
+  }
+  

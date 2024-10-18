@@ -1,0 +1,227 @@
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #1a192b;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+  }
+  
+  .dndflow .dndnode.input {
+    border-color: #0041d0;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #ff0072;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+      flex-direction: row-reverse;
+    }
+  
+    .dndflow aside {
+      width: 15%;
+      max-width: 250px;
+    }
+  }
+  .react-flow__node-output, .react-flow__node-group {
+    padding: 4px;
+    border-radius: 3px;
+    width: 100px;
+    font-size: 10px;
+    color: #222;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1a192b;
+    background-color: white;
+}
+.react-flow__node-input{
+  padding: 4px;
+    border-radius: 3px;
+    width: 100px;
+    font-size: 10px;
+    color: #222;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1a192b;
+    background-color: white;
+}
+.react-flow__node-default{
+  padding: 4px;
+  border-radius: 3px;
+  width: 100px;
+  font-size: 10px;
+  color: #222;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1a192b;
+  background-color: white;
+}
+.btn{
+  margin-top: 20px;
+}
+.updatenode__controls{
+  width: 12%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #FF0073;
+}
+input{
+  margin-top: 15px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  padding: 5px;
+}
+
+.btn {
+  height: 30px; /* Maggiore altezza per una migliore accessibilità */
+  padding: 6px 12px; /* Aggiunta di padding orizzontale */
+  border: 2px solid #e3c194; /* Bordo color oro */
+  border-radius: 4px; /* Angoli arrotondati */
+  background-color: rgba(40, 40, 40, 0.9); /* Colore di sfondo scuro */
+  color: #d4c9b8; /* Colore del testo chiaro */
+  font-family: 'Arial', sans-serif; /* Font per uniformità */
+  font-size: 14px; /* Dimensione del font */
+  cursor: pointer; /* Cambia il cursore per l'interazione */
+  transition: background-color 0.3s, color 0.3s; /* Aggiunta di transizioni per l'interazione */
+}
+
+.btn:hover {
+  background-color: #e3c194; /* Colore di sfondo quando si passa sopra */
+  color: #1a192b; /* Colore del testo scuro quando si passa sopra */
+}
+
+.btn:active {
+  background-color: #d4c9b8; /* Colore di sfondo quando si fa clic */
+  color: #1a192b; /* Colore del testo scuro quando si fa clic */
+}
+
+label{
+  color: white;
+}
+
+/* Stile della sidebar */
+/* Stile della sidebar */
+.sidebar {
+  background-color: rgba(20, 20, 20, 0.85); /* Colore di sfondo scuro e traslucido */
+  border-radius: 10px; /* Angoli arrotondati */
+  padding: 20px; /* Spaziatura interna */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); /* Ombra per dare profondità */
+  color: #d4c9b8; /* Colore del testo chiaro */
+  font-family: 'Garamond', serif; /* Font ispirato a Elden Ring */
+  font-size: 14px; /* Dimensione del font */
+  width: 300px; /* Larghezza fissa della sidebar */
+}
+
+/* Stile delle intestazioni e delle descrizioni */
+.sidebar h2 {
+  font-size: 20px; /* Dimensione del font per le intestazioni */
+  color: #e3c194; /* Colore per le intestazioni */
+  margin-bottom: 10px; /* Margine sotto le intestazioni */
+  border-bottom: 2px solid #e3c194; /* Sottolineatura per le intestazioni */
+  padding-bottom: 5px; /* Spaziatura sotto le intestazioni */
+}
+
+.sidebar .description {
+  font-size: 12px; /* Dimensione del font per le descrizioni */
+  color: #b0a08a; /* Colore delle descrizioni */
+  margin-bottom: 20px; /* Margine sotto le descrizioni */
+}
+
+/* Stile del dropdown */
+.dropdown {
+  margin-bottom: 20px; /* Margine sotto il dropdown */
+}
+
+.dropdown label {
+  display: block; /* Visualizza l'etichetta come un blocco */
+  margin-bottom: 5px; /* Margine sotto l'etichetta */
+  font-weight: bold; /* Grassetto per l'etichetta */
+  color: #e3c194; /* Colore dell'etichetta */
+}
+
+.dropdown select {
+  background-color: rgba(40, 40, 40, 0.9); /* Colore di sfondo per il dropdown */
+  color: #d4c9b8; /* Colore del testo del dropdown */
+  border: 1px solid #e3c194; /* Bordo del dropdown */
+  border-radius: 4px; /* Angoli arrotondati */
+  padding: 8px; /* Spaziatura interna */
+  width: 100%; /* Larghezza del dropdown */
+  font-size: 14px; /* Dimensione del font del dropdown */
+}
+
+.autocomplete {
+  position: relative; /* Assicura che il wrapper sia posizionato correttamente */
+}
+
+.autocomplete input {
+  background-color: rgba(40, 40, 40, 0.9); /* Colore di sfondo per l'input */
+  color: #d4c9b8; /* Colore del testo per l'input */
+  border: 1px solid #e3c194; /* Bordo per l'input */
+  border-radius: 4px; /* Angoli arrotondati */
+  padding: 8px; /* Spaziatura interna */
+  width: 100%; /* Larghezza dell'input */
+  margin-bottom: 15px; /* Margine sotto l'input */
+}
+
+.autocomplete-item {
+  background-color: rgba(40, 40, 40, 0.9); /* Sfondo dei suggerimenti */
+  color: #d4c9b8; /* Colore del testo dei suggerimenti */
+  padding: 10px; /* Spaziatura interna per i suggerimenti */
+  cursor: pointer; /* Cursore a mano per i suggerimenti */
+}
+
+.autocomplete-item.highlighted {
+  background-color: #e3c194; /* Colore di sfondo quando l'elemento è evidenziato */
+  color: #000; /* Colore del testo quando l'elemento è evidenziato */
+}
+
+
+/* Stile dei nodi */
+.dndnode {
+  background-color: rgba(30, 30, 30, 0.9); /* Colore di sfondo per il nodo */
+  border: 1px solid #e3c194; /* Bordo per il nodo */
+  border-radius: 4px; /* Angoli arrotondati */
+  padding: 10px; /* Spaziatura interna */
+  margin-top: 10px; /* Margine sopra il nodo */
+  text-align: center; /* Testo centrato */
+  cursor: grab; /* Cursore a mano */
+  color: #d4c9b8; /* Colore del testo per il nodo */
+}
+
+/* Stile degli input per il nodo personalizzato */
+input[type="text"] {
+  background-color: rgba(40, 40, 40, 0.9); /* Colore di sfondo per gli input del nodo personalizzato */
+  color: #d4c9b8; /* Colore del testo per gli input */
+  border: 1px solid #e3c194; /* Bordo per gli input */
+  border-radius: 4px; /* Angoli arrotondati */
+  padding: 8px; /* Spaziatura interna */
+  width: calc(100% - 20px); /* Larghezza dell'input */
+  margin-bottom: 10px; /* Margine sotto gli input */
+}
+
