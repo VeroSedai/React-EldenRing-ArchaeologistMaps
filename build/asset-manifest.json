@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-elden-ring-archaeo-maps/static/css/main.ff0c8fbc.css",
+    "main.js": "/react-elden-ring-archaeo-maps/static/js/main.db98d17b.js",
+    "static/js/453.5d5ef14b.chunk.js": "/react-elden-ring-archaeo-maps/static/js/453.5d5ef14b.chunk.js",
+    "index.html": "/react-elden-ring-archaeo-maps/index.html",
+    "main.ff0c8fbc.css.map": "/react-elden-ring-archaeo-maps/static/css/main.ff0c8fbc.css.map",
+    "main.db98d17b.js.map": "/react-elden-ring-archaeo-maps/static/js/main.db98d17b.js.map",
+    "453.5d5ef14b.chunk.js.map": "/react-elden-ring-archaeo-maps/static/js/453.5d5ef14b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff0c8fbc.css",
+    "static/js/main.db98d17b.js"
+  ]
+}
